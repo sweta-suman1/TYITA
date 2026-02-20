@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'      // Name configured in Jenkins Global Tool Config
+        maven 'Maven3'      // Name configured in Jenkins Global Tool Config
         jdk 'JDK8'        // Name configured in Jenkins
     }
 
